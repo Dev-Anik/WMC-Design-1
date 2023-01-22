@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WMC</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/semantic.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.1/collection/components/icon/icon.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/media.css">
+  </head>
+  <body>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                           Navbar starts here                            -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <header class="header">
+      <div class="container">
+        <section class="wrapper">
+          <a href="#" class="brand">
+            <img src="assets/img/logo.svg" alt="" />
+          </a>
+          <button type="button" class="opened-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="overlay"></div>
+          <nav class="navbar">
+            <div class="ham-brand">
+              <img src="assets/img/logo.svg"" alt="">
+            <button type="button" class="closed-menu">
+              <img src="assets/img/cross.png" class="closed-icon" alt="closed" />
+            </button>
+          </div>
+            <ul class="menu">
+              <!-- first menu -->
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu" class="menu-item-contents">
+                  <img src="assets/img/inventory_blue.svg" alt="" />在庫
+                  <i class="expand"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Sub Menu 1</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 2</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 3</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 4</a></li>
+                </ul>
+              </li>
+
+              <!-- second menu -->
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu" class="menu-item-contents">
+                  <img src="assets/img/in_stock_blue.svg" alt="" />入荷
+                  <i class="expand"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Sub Menu 1</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 2</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 3</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 4</a></li>
+                </ul>
+              </li>
+
+              <!-- third menu -->
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu" class="menu-item-contents">
+                  <img src="assets/img/shipping_blue.svg" alt="" />出荷
+                  <i class="expand"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Sub Menu 1</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 2</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 3</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 4</a></li>
+                </ul>
+              </li>
+
+              <!-- fourth menu -->
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu" class="menu-item-contents">
+                  <img src="assets/img/master_blue.svg" alt="" />マスター
+                  <i class="expand"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Sub Menu 1</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 2</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 3</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 4</a></li>
+                </ul>
+              </li>
+
+              <!-- fifth menu -->
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu" class="menu-item-contents">
+                  <img src="assets/img/barcode_blue.svg" alt="" />バーコード
+                  <i class="expand"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Sub Menu 1</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 2</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 3</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 4</a></li>
+                </ul>
+              </li>
+
+              <!-- sixth menu -->
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu" class="menu-item-contents">
+                  <img src="assets/img/mail_order_blue.svg" alt="" />通信販売
+                  <i class="expand"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Sub Menu 1</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 2</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 3</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 4</a></li>
+                </ul>
+              </li>
+
+              <!-- seventh menu -->
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu" class="menu-item-contents">
+                  <img src="assets/img/set_product_blue.svg" alt="" />セット商品
+                  <i class="expand"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Sub Menu 1</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 2</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 3</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 4</a></li>
+                </ul>
+              </li>
+
+              <!-- eighth menu -->
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu" class="menu-item-contents">
+                  <img src="assets/img/setting_blue.svg" alt="" />内部マスタ
+                  <i class="expand"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">Sub Menu 1</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 2</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 3</a></li>
+                  <li class="menu-item"><a href="#">Sub Menu 4</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav-right-most">
+              <li>
+                <a href=""><img src="assets/img/manual-blue.png" alt="" /></a>
+              </li>
+
+              <li>
+                <a href=""><img src="assets/img/logout_red.svg" alt="" /></a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </header>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                        Navbar section ends here                         -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                        Main section starts here                         -->
+    <!-- ----------------------------------------------------------------------- -->
+    <main class="main container">
+      <div class="sub-heading">
+        <h4>在庫確認</h4>
+        <a href="#"><img src="assets/img/guide_black.svg" alt="" /></a>
+      </div>
+
+      <hr />
+      <div class="first-search-container">
+        <div class="place-search">
+          <h5>選択倉庫</h5>
+          <select class="ui search dropdown">
+            <option selected value="1">大阪店</option>
+            <option value="2">返品倉庫</option>
+            <option value="3">予備倉庫</option>
+            <option value="4">滋賀近江八幡店</option>
+          </select>
+        </div>
+
+        <div class="date-search">
+          <h5>在庫設定日</h5>
+          <div class="ui input">
+            <input type="date" placeholder="Search..." />
+          </div>
+        </div>
+      </div>
+      <!-- inventory check list -->
+      <div class="inventory-list">
+        <!-- first -->
+        <div class="inventory-menu">
+          <picture>
+            <img src="assets/img/product.png" alt="" />
+          </picture>
+          <article>
+            <h5>商品総種</h5>
+            <p>57</p>
+          </article>
+        </div>
+        <!-- second -->
+        <div class="inventory-menu">
+          <picture>
+            <img src="assets/img/graph.png" alt="" />
+          </picture>
+          <article>
+            <h5>出荷可能在庫数</h5>
+            <p>6869</p>
+          </article>
+        </div>
+        <!-- third -->
+        <div class="inventory-menu">
+          <picture>
+            <img src="assets/img/time-left.png" alt="" />
+          </picture>
+          <article>
+            <h5>入荷確定待数</h5>
+            <p>20</p>
+          </article>
+        </div>
+        <!-- fourth -->
+        <div class="inventory-menu">
+          <picture>
+            <img src="assets/img/delivery-truck.png" alt="" />
+          </picture>
+          <article>
+            <h5>出荷確定待数</h5>
+            <p>1356</p>
+          </article>
+        </div>
+        <!-- fifth -->
+        <div class="inventory-menu">
+          <picture>
+            <img src="assets/img/inventory-management.png" alt="" />
+          </picture>
+          <article>
+            <h5>総在庫数</h5>
+            <p>8225</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--             combined search box and radio tags starts here              -->
+      <!-- ----------------------------------------------------------------------- -->
+
+      <div class="search-radio">
+        <div class="ui action input combined-search">
+          <input type="text" name="" />
+          <button class="ui button">複合検索欄</button>
+        </div>
+
+        <div class="toggle-opt">
+          <div class="ui toggle checkbox">
+            <input
+              type="checkbox"
+              tabindex="0"
+              class="hidden"
+              name="total-display"
+            />
+            <label>合計表示</label>
+          </div>
+
+          <div class="ui toggle checkbox">
+            <input
+              type="checkbox"
+              tabindex="0"
+              class="hidden"
+              name="stock-display"
+            />
+            <label>合計表示</label>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--              combined search box and radio tags ends here               -->
+      <!-- ----------------------------------------------------------------------- -->
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                    list of tags section starts here                     -->
+      <!-- ----------------------------------------------------------------------- -->
+      <div class="tag-list">
+        <button class="ui facebook button" type="submit" value="">検索</button>
+
+        <button class="ui twitter button" type="submit" value="">一覧</button>
+
+        <button class="ui google plus button" type="submit" value="">
+          商品追尾
+        </button>
+
+        <button class="ui vk button" type="submit" value="">
+          マトリックス
+        </button>
+
+        <button class="ui linkedin button" type="submit" value="">
+          CSVデーター作成
+        </button>
+      </div>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                    list of tags section ends here                     -->
+      <!-- ----------------------------------------------------------------------- -->
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                   table contents section starts here                    -->
+      <!-- ----------------------------------------------------------------------- -->
+      <div class="tbl-content">
+        <button class="ui left attached button">設定カラム表示</button>
+        <button class="right attached ui button">全カラム表示</button>
+
+        <!-- table starts here -->
+        <table id="myTable">
+          <!-- table heading part -->
+          <tr>
+            <th>商品番号</th>
+            <th>メーカーコード</th>
+            <th>品番</th>
+            <th>ブランド名</th>
+            <th>品名</th>
+            <th>カラー</th>
+            <th>サイズ</th>
+            <th>バーコード</th>
+            <th>上代価格</th>
+            <th>入荷先名</th>
+            <th>最終仕入価格</th>
+            <th>倉庫名</th>
+            <th>在庫数</th>
+            <th>入荷予定数</th>
+            <th>引当数</th>
+            <th>総在庫</th>
+            <th>設定日在庫</th>
+          </tr>
+
+          <tr>
+            <th>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </th>
+            <th>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </th>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <select class="tbl-select">
+                <option value="">Colgis</option>
+                <option value="1">Colgis</option>
+                <option value="0">Colgis-Shop</option>
+              </select>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td>
+              <div class="ui small icon input tbl-input">
+                <input type="text" name="" />
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <!-- table row part -->
+          <!-- table row-1 -->
+          <tr>
+            <td>
+              <div class="ui radio checkbox">
+                <input type="radio" name="number" tabindex="0" class="hidden" />
+                <label>15</label>
+              </div>
+            </td>
+
+            <td>202112Aset</td>
+            <td>202112A</td>
+            <td>colgis-shop</td>
+            <td>ギフトボックス12A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>株式会社　ABC</td>
+            <td></td>
+            <td>大阪店</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+          </tr>
+
+          <!-- table row-2 -->
+          <tr>
+            <td>
+              <div class="ui radio checkbox">
+                <input type="radio" name="number" tabindex="0" class="hidden" />
+                <label>16</label>
+              </div>
+            </td>
+
+            <td>202112Aset</td>
+            <td>202112A</td>
+            <td>colgis-shop</td>
+            <td>ギフトボックス12A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>株式会社　ABC</td>
+            <td></td>
+            <td>大阪店</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+          </tr>
+
+          <!-- table row-3 -->
+          <tr>
+            <td>
+              <div class="ui radio checkbox">
+                <input type="radio" name="number" tabindex="0" class="hidden" />
+                <label>17</label>
+              </div>
+            </td>
+
+            <td>202112Aset</td>
+            <td>202112A</td>
+            <td>colgis-shop</td>
+            <td>ギフトボックス12A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>株式会社　ABC</td>
+            <td></td>
+            <td>大阪店</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+          </tr>
+
+          <!-- table row-4 -->
+          <tr>
+            <td>
+              <div class="ui radio checkbox">
+                <input type="radio" name="number" tabindex="0" class="hidden" />
+                <label>18</label>
+              </div>
+            </td>
+
+            <td>202112Aset</td>
+            <td>202112A</td>
+            <td>colgis-shop</td>
+            <td>ギフトボックス12A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>株式会社　ABC</td>
+            <td></td>
+            <td>大阪店</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+          </tr>
+  
+          <!-- table row-5 -->
+          <tr>
+            <td>
+              <div class="ui radio checkbox">
+                <input type="radio" name="number" tabindex="0" class="hidden" />
+                <label>19</label>
+              </div>
+            </td>
+
+            <td>202112Aset</td>
+            <td>202112A</td>
+            <td>colgis-shop</td>
+            <td>ギフトボックス12A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>株式会社　ABC</td>
+            <td></td>
+            <td>大阪店</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="assets/js/table-pagination.js"></script>
+    <script src="assets/js/semantic.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

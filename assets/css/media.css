@@ -1,0 +1,336 @@
+/* -------------------------------------------------------------------------- */
+/*                                 global css                                 */
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width:1600px){
+    h5,label,button{
+        font-size:15px   
+    }
+}
+@media screen and (max-width:1320px){
+    h5,label,button{
+        font-size:14px   
+    }
+}
+@media screen and (max-width:375px){
+    h5,label,button{
+        font-size:12px   
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Navbar                                   */
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width:1780px){
+    nav.navbar {
+        gap: 4rem;
+    }
+    a.brand img {
+        height: 32px;
+
+    }
+    .header .menu > .menu-item {
+        margin: 0 1.2rem;
+    }
+    .header .menu > .menu-item > a {
+        font-size: 14px;
+        line-height: 18px;
+        gap: 6px;
+    }
+    .menu-item-contents img {
+        height: 18px;
+    }
+}
+
+@media screen and (max-width:1530px){
+    nav.navbar {
+        gap: 1rem;
+    }
+    .header .menu > .menu-item > a .expand {
+        height: 0.5rem;
+        width: 0.5rem;
+    }
+    .header .menu > .menu-item {
+        margin: 0 1rem;
+    }
+}
+
+
+@media screen and (max-width:1399px){
+    .header .menu > .menu-item {
+        margin: 0 0.7rem;
+    }
+}
+@media only screen and (max-width: 1308px) {
+    a,
+    button {
+      cursor: default !important;
+      border: none;
+      outline: none;
+    }
+      nav.navbar {
+      display: block;
+  }
+  .header .menu > .menu-item > .sub-menu{
+      margin-bottom: 5%;
+  }
+  .nav-right-most {
+      justify-content: space-around;
+  }
+  .container {
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
+  }
+
+  @media only screen and (max-width: 1308px) {
+    .header .overlay.active {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+    .header .navbar {
+      position: fixed;
+      top: 0;
+      left: -18rem;
+      width: 18rem;
+      height: 100%;
+      padding: 1rem 0;
+      z-index: 999;
+      opacity: 0;
+      overflow-y: auto;
+      visibility: hidden;
+      background: #fff;
+      -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+    .header .navbar.active {
+      left: 0;
+      opacity: 1;
+      visibility: visible;
+    }
+    .header .navbar::-webkit-scrollbar {
+      width: 5px;
+    }
+    .header .navbar::-webkit-scrollbar-thumb {
+      border-radius: 1rem;
+      background: #e6e6e6;
+      -webkit-box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.12);
+      box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.12);
+    }
+    .ham-brand{
+        display: flex;
+        padding: 0 4%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .ham-brand img{
+        height: 30px !important;
+        width: auto !important;
+      }
+      .ham-brand button img{
+        height: 30px;
+        width: auto;
+      }
+    .header .menu {
+      width: 100%;
+      height: auto;
+      margin-top: 1.5rem;
+    }
+    .header .menu > .menu-item {
+      display: block;
+      margin: 0;
+    }
+    .header .menu > .menu-item-has-children > a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    .header .menu > .menu-item > a {
+      padding: 0.75rem 1rem;
+      color: #121212;
+      border-bottom: 1px solid #f2f2f2;
+    }
+    .header .menu > .menu-item:first-child > a {
+      border-top: 1px solid #f2f2f2;
+    }
+    .header .menu > .menu-item > a .expand::before,
+    .header .menu > .menu-item > a .expand::after {
+      background: #121212;
+    }
+    .header .menu > .menu-item-has-children.active > a .expand:after {
+      -webkit-transform: translate(-50%, -50%) rotate(0deg);
+      -ms-transform: translate(-50%, -50%) rotate(0deg);
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    .header .menu > .menu-item > .sub-menu {
+      position: relative;
+      top: auto;
+      left: auto;
+      width: 100%;
+      max-height: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+      opacity: 1;
+      overflow: hidden;
+      visibility: visible;
+      background: 0 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    .header .menu > .menu-item > .sub-menu > .menu-item > a {
+      padding: 0.75rem 2rem;
+      color: #121212;
+      border-bottom: 1px solid #f2f2f2;
+    }
+    .header .opened-menu {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+    .header .closed-menu {
+      position: absolute;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      top: 1rem;
+      right: 0.5rem;
+    }
+  }
+  @media only screen and (min-width: 1309px) {
+    .header .menu > .menu-item-has-children:hover > .sub-menu {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+    .header .menu > .menu-item-has-children:hover > a .expand::after {
+      -webkit-transform: translate(-50%, -50%) rotate(0deg);
+      -ms-transform: translate(-50%, -50%) rotate(0deg);
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+
+
+  /* -------------------------------------------------------------------------- */
+  /*                          Main section starts here                          */
+  /* -------------------------------------------------------------------------- */
+
+
+  /* inventory small card section */
+  @media screen and (max-width:1600px){
+    .inventory-menu img {
+        height: 2rem;
+        width: auto;
+    }
+    .inventory-menu {
+        grid-template-columns: 25% 65%;
+        gap: 5%;
+    }
+    .inventory-list {
+        gap: 2%;
+    }
+  }
+  @media screen and (max-width:1200px){
+    .inventory-list {
+        grid-template-columns: repeat(4,1fr);
+        gap: 3%;
+        row-gap: 10%;
+    }
+  }
+
+  @media screen and (max-width:878px){
+    .inventory-list {
+        grid-template-columns: repeat(3,1fr);
+        gap: 3%;
+        row-gap: 10%;
+    }
+  }
+
+  @media screen and (max-width:575px){
+    .ui.selection.dropdown {
+        min-width: 100%;
+    }
+    .inventory-list {
+        grid-template-columns: repeat(2,1fr);
+        gap: 3%;
+        row-gap: 10%;
+    }
+    .first-search-container {
+        gap: 2rem;
+    }
+  }
+
+
+  /* first search bar with toggle */
+  @media screen and (max-width:1200px){
+    .search-radio {
+        margin-top: 2rem;
+
+    }
+  }
+  @media screen and (max-width:867px){
+    .search-radio {
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+    .search-radio .toggle-opt {
+        margin-top: 1.5rem;
+    }
+    .ui.action.input.combined-search {
+        width: 70%;
+    }
+  }
+  @media screen and (max-width:575px){
+    .search-radio {
+        margin-top: 3.5rem;
+    }
+    .search-radio .toggle-opt {
+        gap: 1.5rem;
+    }
+    .ui.action.input.combined-search {
+        width: 100%;
+    }
+  }
+
+/* table css */
+@media screen and (max-width:1700px){
+    table {
+        width: max-content;
+        table-layout: fixed;
+    }
+    .pagintaion-container-myTable {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    td:nth-child(2), th:nth-child(2) {
+        width: 5%;
+      }
+      
+      td:nth-child(4), th:nth-child(4) {
+        width: 5%;
+      }
+      td:nth-child(5), th:nth-child(5) {
+        width: 5%;
+      }
+      td:nth-child(10), th:nth-child(5) {
+        width: 5%;
+      }
+}

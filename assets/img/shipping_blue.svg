@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 510" width="520" height="510">
+	<title>shipping_blue-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h650v510h-650z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #275791;stroke-linejoin: round;stroke-width: 48.1 } 
+		.s1 { fill: #275791;stroke: #275791;stroke-linejoin: round;stroke-width: 9.2 } 
+		.s2 { fill: #275791 } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<path id="Layer" class="s0" d="m24 71.7c0-26.4 21.3-47.7 47.7-47.7h190.6c26.4 0 47.7 21.3 47.7 47.7v366.6c0 26.4-21.3 47.7-47.7 47.7h-190.6c-26.4 0-47.7-21.3-47.7-47.7z"/>
+			<path id="Layer" class="s1" d="m379.5 353.5h115v92h-115z"/>
+			<path id="Layer" class="s2" d="m160 241.3l327.3-0.1v27.5h-327.3zm251.8-46.2l102.8 60-102.8 60c-6.6 3.8-15 1.6-18.8-4.9-3.8-6.6-1.6-15 4.9-18.9l82.5-48.1v23.8l-82.5-48.2c-6.5-3.8-8.7-12.2-4.9-18.7 3.8-6.6 12.2-8.8 18.8-5z"/>
+		</g>
+	</g>
+</svg>

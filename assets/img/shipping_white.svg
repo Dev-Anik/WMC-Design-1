@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 510" width="520" height="510">
+	<title>shipping_blue-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h650v510h-650z"/>
+		</clipPath>
+		<image  width="336" height="512" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAAIABAMAAAAmoCmAAAAAAXNSR0IB2cksfwAAAB5QTFRFAAAA2dnZ1tfXAACAAAAA2dnZJEmAHkuHFVWAAECA8iDuKwAAAAp0Uk5TAP+BAgHrDhEMBPBakEQAAAPLSURBVHic7dpNctNAEAZQQ8FeCsUeboBvEG5AjsAROAJH4MaUK/zEjtQjiWJ6OvW+rbx4/rqd2BqdTi8jc8ccV77qybxkqsG85MN+5znDOc/vdjLf5DAv2eV8m+fctakp63lAmuzcLE13bpVmKy+p4twizRb+Tss5wII+prWm2b6/qeKMpcMM/pJo+Nm26xQpNKo0W3abIoWuV5rtep4iha5Vmq1aSpFClyvNNi2nSKFLlWaL1lKk0Hn+VAV6O/tsz3qKFHpbabYmyPsq0LnI5K9nXwaabYlTpNCnlZaBZktaKQcdfPJ/Z18Gmu1opxj0dTajnfsaK/p7SctAsxUb8n4j9PSfs1GQrNxkvbwkXtFjZ/0H8rnJCKF3vZyNTpvQfs5Y2oJ+6QmNIFP8RrotaFsaQ/s6W5T1i3sfRPnnnA9CO08+nH0I7e2MLevvonuhEeZDcO32FmoqdAqu9XcGsw+g3T/zl5wPQBNWNJj9S4BmONeXFBR0fOi5CvRrDeh8+gYKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKWhz6vQr0Rw3odHoFCloVep/hfH0AOmVAA019aMqSrmJeBDRh9hGmDHS97YTZh5b1i90rXS80ht71hn48CO0++5gSXH3X13mOocFi9N3SFiS63nX4kaMJ7SgNGW1oN+lDExq/lXn+0oPZaOuxrsZrOrS6UfDQfl127jbVPkCmWtDVH1Tj5H7rLmdn84cuOxv/iKVnqgYdfvY7/jPk5g908NlP9aCDz/7J15ehK50qQoee/dVX14dsTZAr6MCzv/nJns1Zz7Vz3Epv74GUgQ47+1vnqJUu3P3KJi3nuXPMShdvJ2ajlrLkHLHSlfuz2aznWXaOV+nqDe9s2G3WnKNVGpwgZNOus+4cq9LwSCYb9zSRcyRp7Bxn+M2zuGzgr2w4MM4mPqbtHEO6xTnCmm48LE6Xbj7UTpbuOHxPle56SCBRuvdhhiznTmZWqceeDelO/YdHWHoyjyuHyk+JQJoOMZ+XhgAAAABJRU5ErkJggg=="/>
+		<image  width="126" height="103" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAABnAQMAAAD8NGSYAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA2dnZiMqjVgAAAAJ0Uk5TAP9bkSK1AAAAN0lEQVR4nGNgQAf2/1HAB4Z6VIEfRAig8v//GRUYFRgVGBUYFRgVwBCoRxUgpn6xRxX4gFGJAQAeFUQsXNfHnAAAAABJRU5ErkJggg=="/>
+		<image  width="355" height="124" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWMAAAB8AQMAAACG+0NYAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA2dnZiMqjVgAAAAJ0Uk5TAP9bkSK1AAABWklEQVR4nM3YsQ3CMBCFYaIUlB4ho3g0ezSP4hFSpohyhBxFoID3W3KEWz5FedwZ47vdvi4r3z9/W6PNQAdbgZ5sAzqaZV0ns4r0omszEnPXJuPhqQvSFWk55qHl+hxaro/rgrTahq7V+rhWY7qWY7quSKsxE4rpWm3DiGIGFPPuWmzD0VB9DMV8fSlF0xOqD4s5NMXMmo6oPqElptiGQ8/6RPTi4YI2zJq+oA1Zffq3oalrQXpF2pjOSFekF6RXpI3pgvSM9IL0hvReH6JrR43ehKVcO1aHVR511dZxN7CdxnZxx18f8eSJrqumTyF/L3aohVPI32tyLZ5SyXWR8NA/JKtNz5Dao9kpz2rzNw3I/lFf0IDao0dUm6aQVdOR1AbeGBMJCW+6KCS7obfc/tlkgU0tCtIibpnksClRRTqrmk3O4FQuoYlfAkM5OqlkU9BAXhtObz8nww+38+29CFv0YgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<g id="white">
+		<g id="Clip-Path" clip-path="url(#cp1)">
+			<g id="Layer">
+				<use id="Layer" href="#img1" x="-1" y="-1"/>
+				<use id="Layer" href="#img2" x="374" y="348"/>
+				<use id="Layer" href="#img3" x="160" y="193"/>
+			</g>
+		</g>
+	</g>
+</svg>

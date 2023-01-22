@@ -1,0 +1,14 @@
+<svg width="480" height="510"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+  <defs>
+    <clipPath id="clip0">
+      <rect x="2408" y="1038" width="480" height="510"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip0)" transform="translate(-2408 -1038)">
+    <path d="M2559 1109.67C2559 1083.34 2580.34 1062 2606.67 1062L2797.33 1062C2823.66 1062 2845 1083.34 2845 1109.67L2845 1476.33C2845 1502.66 2823.66 1524 2797.33 1524L2606.67 1524C2580.34 1524 2559 1502.66 2559 1476.33Z" stroke="#D9D9D9" stroke-width="48.125" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M2408 1272.25 2735.35 1272.25 2735.35 1299.75 2408 1299.75ZM2659.78 1226 2762.64 1286 2659.78 1346C2653.22 1349.83 2644.8 1347.61 2640.98 1341.05 2637.15 1334.49 2639.36 1326.07 2645.92 1322.25L2728.42 1274.12 2728.42 1297.88 2645.92 1249.75C2639.36 1245.93 2637.15 1237.51 2640.98 1230.95 2644.8 1224.39 2653.22 1222.17 2659.78 1226Z" fill="#D9D9D9"/>
+    <rect x="2647.5" y="1390.5" width="115" height="93.0001" stroke="#D9D9D9" stroke-width="9.16667" stroke-linejoin="round" stroke-miterlimit="10" fill="#D9D9D9"/>
+  </g>
+</svg>
